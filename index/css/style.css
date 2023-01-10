@@ -1,3 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Josefin+Sans:wght@300&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 header {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 300;
+    color: #FFF5EE;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+   
+}
+
+#logo {
+    float: left;
+    font-size: 400%;
+}
+
+#nav-float-right {
+    font-size: 150%;
+    float: right;
+    margin-top: 25px;
+}
+
+#nav-float-right li {
+    float: left;
+    list-style-type: none;
+    margin-right: 40px;
+    letter-spacing: 4px;
+}
+
+#nav-float-right a {
+    text-decoration: none;
+}
+
+#nav-float-right a:hover {
+    text-decoration: underline;
+}
+
+#bg-zoomin {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#bg-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/bg-image-weight-lifting.jpg') no-repeat center center;
+    overflow: hidden;
+    animation-name: bg-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bg-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
