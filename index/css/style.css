@@ -55,18 +55,18 @@ header {
     overflow: hidden;
     animation-name: bg-change;
     animation-iteration-count: infinite;
-    animation-duration: 10s;
+    animation-duration: 12s;
     animation-timing-function: ease-in-out;
 }
 
 @keyframes bg-change {
-    0% {
+    10% {
         background-image: url('../images/bg-image-weight-lifting.jpg');
     }
     40% {
-        background-image: url('../images/bg-boxing.jpg');
+        background-image: url('../images/bg-pushup.jpg');
     }
     80% {
-        background-image: url('../images/bg-kettlebell.jpg');
+        background-image: url('../images/bg-boxing.jpg');    
     }
 }
