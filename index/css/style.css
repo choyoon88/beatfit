@@ -41,7 +41,7 @@ header {
     text-decoration: underline;
 }
 
-#bg-zoomin {
+#bg-change {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -51,17 +51,22 @@ header {
     height: 600px;
     width: 100%;
     background: url('../images/bg-image-weight-lifting.jpg') no-repeat center center;
+    background-size: cover;
     overflow: hidden;
-    animation-name: bg-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+    animation-name: bg-change;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
 }
 
-@keyframes bg-zoom {
-    from {
-        transform: scale(1);
+@keyframes bg-change {
+    0% {
+        background-image: url('../images/bg-image-weight-lifting.jpg');
     }
-    to {
-        transform: scale(1.1);
+    40% {
+        background-image: url('../images/bg-boxing.jpg');
+    }
+    80% {
+        background-image: url('../images/bg-kettlebell.jpg');
     }
 }
