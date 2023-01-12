@@ -85,7 +85,7 @@ p {
     width: 50%;
     height: 50%;
     margin-top: -50px;
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 #left-image img {
@@ -101,7 +101,7 @@ p {
     background-color: rgba(21, 21, 212, 0.522);
     letter-spacing: 2px;
     position: absolute;
-    right: 15%;
+    right: 20%;
     top: 100%;
     padding-top: 30px;
     padding-left: 10px;
@@ -111,7 +111,7 @@ p {
     width: 50%;
     height: 50%;
     float: right;
-    margin-right: 50px;
+    margin-right: 250px;
 }
 
 #right-image img {
@@ -128,7 +128,7 @@ p {
     letter-spacing: 2px;
     position: absolute;
     left: 22%;
-    bottom: -70%;
+    bottom: -90%;
     padding-top: 30px;
     padding-left: 10px;
 }
