@@ -71,39 +71,3 @@ header {
         background-image: url('../images/bg-boxing.jpg');    
     }
 }
-
-#workout-together {
-    margin-top: -50px;
-    margin-left: 100px;
-}
-
-.why-beatfit img {
-    width: 50%;
-    height: 50%;
-    float: left;
-}
-
-#reason {
-    float: right;
-    margin-top: 250px;
-    margin-right: 200px;
-    font-family: 'Fjalla One', sans-serif;
-    letter-spacing: 3px;
-    line-height: 50px;       
-}
-
-h2 {
-    font-size: 50px;
-    font-family: 'Fjalla One', sans-serif;
-}
-
-p {
-    font-size: 30px;
-    font-family: 'Fjalla One', sans-serif;
-}
-
-#crunch {
-    width: 50%;
-    height: 50%;
-    float: left;
-}
