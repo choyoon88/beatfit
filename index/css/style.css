@@ -78,7 +78,17 @@ h2,
 p {
     font-family: 'Fjalla One', sans-serif;
     color: #141413ee;
+}
 
+h2 {
+    text-transform: uppercase;
+}
+
+hr {
+    border-top: 1px solid black;
+    width: 90%;
+    margin: 5px 0;
+    
 }
 
 #left-image {
@@ -105,6 +115,7 @@ p {
     top: 100%;
     padding-top: 30px;
     padding-left: 10px;
+    border-radius: 5px;
 }
 
 #right-image {
@@ -124,11 +135,12 @@ p {
     float: left;
     width: 400px;
     height: 200px;
-    background-color: rgba(230, 77, 17, 0.615);
+    background-color: rgba(237, 181, 13, 0.705);
     letter-spacing: 2px;
     position: absolute;
     left: 22%;
     bottom: -90%;
     padding-top: 30px;
     padding-left: 10px;
+    border-radius: 5px;
 }
