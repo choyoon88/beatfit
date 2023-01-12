@@ -9,7 +9,7 @@
 header {
     font-family: 'Fjalla One', sans-serif;
     font-weight: 300;
-    color: #FFF5EE;
+    color: #3a2e25c3;
     text-transform: uppercase;
     letter-spacing: 3px;
    
@@ -39,16 +39,17 @@ header {
 
 #nav-float-right a:hover {
     text-decoration: underline;
+    color: #ae1818
 }
 
 #bg-change {
-    height: 600px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
 }
 
 #bg-image {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url('../images/bg-image-weight-lifting.jpg') no-repeat center center;
     background-size: cover;
@@ -70,3 +71,34 @@ header {
         background-image: url('../images/bg-boxing.jpg');    
     }
 }
+
+#workout-together {
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
+#workout-together img {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#reason {
+    float: right;
+    margin-top: 250px;
+    margin-right: 200px;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 3px;
+    line-height: 50px;       
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
