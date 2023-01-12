@@ -80,7 +80,7 @@ h2, p {
     width: 50%;
     height: 50%;
     margin-top: -50px;
-    margin-left: 140px;
+    margin-left: 200px;
 }
 
 #left-image img {
@@ -92,7 +92,7 @@ h2, p {
     font-size: 140%;
     float: right;
     width: 400px;
-    height: 100px;
+    height: 200px;
     background-color: rgba(21, 21, 212, 0.522);
     letter-spacing: 2px;
     position: absolute;
