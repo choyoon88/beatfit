@@ -9,10 +9,10 @@
 header {
     font-family: 'Fjalla One', sans-serif;
     font-weight: 300;
-    color: #3a2e25c3;
+    color: #141413ee;
     text-transform: uppercase;
     letter-spacing: 3px;
-   
+
 }
 
 #logo {
@@ -64,16 +64,21 @@ header {
     10% {
         background-image: url('../images/bg-image-weight-lifting.jpg');
     }
+
     40% {
         background-image: url('../images/bg-pushup.jpg');
     }
+
     80% {
-        background-image: url('../images/bg-boxing.jpg');    
+        background-image: url('../images/bg-boxing.jpg');
     }
 }
 
-h2, p {
+h2,
+p {
     font-family: 'Fjalla One', sans-serif;
+    color: #141413ee;
+
 }
 
 #left-image {
@@ -119,7 +124,7 @@ h2, p {
     float: left;
     width: 400px;
     height: 200px;
-    background-color: rgba(21, 21, 212, 0.522);
+    background-color: rgba(230, 77, 17, 0.615);
     letter-spacing: 2px;
     position: absolute;
     left: 22%;
