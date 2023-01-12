@@ -100,5 +100,30 @@ h2, p {
     top: 100%;
     padding-top: 30px;
     padding-left: 10px;
-          
+}
+
+#right-image {
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-right: 50px;
+}
+
+#right-image img {
+    width: 100%;
+    height: 100%;
+}
+
+#left-reason {
+    font-size: 140%;
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(21, 21, 212, 0.522);
+    letter-spacing: 2px;
+    position: absolute;
+    left: 22%;
+    bottom: -70%;
+    padding-top: 30px;
+    padding-left: 10px;
 }
