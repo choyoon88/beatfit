@@ -77,7 +77,7 @@ header {
     margin-left: 100px;
 }
 
-#workout-together img {
+.why-beatfit img {
     width: 50%;
     height: 50%;
     float: left;
@@ -102,3 +102,8 @@ p {
     font-family: 'Fjalla One', sans-serif;
 }
 
+#crunch {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
