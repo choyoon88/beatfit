@@ -16,6 +16,10 @@ header {
     /* Question: How can I make the header fixed with the styling being stable? When I apply the position:fixed, then the header styling changes */
 }
 
+.active {
+    color: #ae1818
+}
+
 #logo {
     float: left;
     font-size: 400%;
