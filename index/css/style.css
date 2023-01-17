@@ -75,7 +75,7 @@ header {
     }
 }
 
-h2,
+h2, h3,
 p {
     font-family: 'Fjalla One', sans-serif;
     color: #141413ee;
@@ -170,4 +170,42 @@ footer {
     padding: 5%;
     margin: 1%;
     color: #141413ee;
+}
+
+/* timetable.html */
+
+#timetable {
+    background-image: url(../images/timetable-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+    
+}
+
+#timetable div {
+    background-color: rgba(31, 29, 29, 0.671);
+    width: 16%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    padding: 28px 0px 59px 6px;
+    border: 4px solid white;
+    box-sizing: border-box;
+}
+/* Question: How to get rid of the background that is unnecessary? */
+
+#timetable div h2, h3 {
+    color: #fafafa;
+    font-size: 150%;
+    line-height: 150%;
+}
+
+#timetable hr {
+    border-top: 1px solid #fafafa;
+    width: 97%;
+    margin: 5px 0;
+    padding-bottom: 8px;
 }
