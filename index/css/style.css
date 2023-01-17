@@ -209,3 +209,15 @@ footer {
     margin: 5px 0;
     padding-bottom: 8px;
 }
+
+#gallery {
+    clear: both;
+    column-count: 5;
+    column-gap: 0;
+    line-height: 0;
+    margin-top: 30px;
+}
+
+#gallery img {
+    width: 100%;
+}
