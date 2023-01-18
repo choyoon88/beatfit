@@ -225,3 +225,70 @@ footer {
 #gallery img {
     width: 100%;
 }
+
+#form {
+    width: 496px;
+    height: 500px;
+    background-color: rgba(237, 181, 13, 0.705);
+    position: relative;
+    left: 53%;
+    top: 40%;
+    padding: 20px 10px 0 20px;  
+}
+
+#form > h2, h4, h5, label {
+    font-family: 'Fjalla One', sans-serif;
+    color: #141413ee;
+    font-size: 110%;
+}
+
+#form h2 {
+    font-size: 165%;
+}
+
+#form h4 {
+    font-size: 120%;
+}
+
+#form h5 {
+    margin: 6px 0 12px 1px
+}
+
+.text-input {
+    display: block;
+    border: 1px solid black;
+    width: 70%;
+    height: 20px;
+    margin: 3px 0 8px 0;
+}
+
+.text-input:hover {
+    border: 2px solid #ae1818;
+}
+
+.check {
+    width: 15px;
+    height: 15px;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+.day {
+    margin-right: 35px;
+}
+
+button {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: rgba(18, 18, 195, 0.579);
+    color: #fafafa;
+    font-size: 100%;
+    font-family: 'Fjalla One', sans-serif;
+    margin: 10px 0 0 10px;
+}
+
+button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
