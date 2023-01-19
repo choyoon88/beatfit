@@ -292,3 +292,63 @@ button:hover {
     background-color: #fafafa;
     color: #f16c6b;
 }
+
+@media screen and (max-width: 1500px) {
+    #left-reason {
+        bottom: -74%;
+    }
+
+    #right-image img {
+        margin-left: 637px
+    }
+
+    #right-reason {
+        right: 10%
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #left-reason {
+        bottom: -74%;
+    }
+
+    #right-image img {
+        margin-left: 600px
+    }
+
+    #right-reason {
+        right: 10%
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #left-image {
+        margin-left: 101px;
+    }
+
+    #left-reason {
+        left: 15%;
+        bottom: -61%;
+    }
+
+    #right-image img {
+        margin-left: 536px;
+}
+
+@media screen and (max-width: 1100px) {
+    #left-image {
+        margin-left: 291px;
+    }
+    
+    #right-image img {
+        margin-left: 291px;
+    }
+
+    #right-reason {
+        right: 16%;
+    }
+
+    #left-reason {
+        left: 22%;
+    }
+}
