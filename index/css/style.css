@@ -169,12 +169,13 @@ footer {
 
 .social-networks li {
     display: inline;
+    margin: 8%;
 }
 
 .social-networks i {
     font-size: 300%;
-    padding: 5%;
-    margin: 1%;
+    margin-top: 30px;
+    margin-bottom: 30px;
     color: #141413ee;
 }
 
