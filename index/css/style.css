@@ -97,7 +97,58 @@ hr {
     
 }
 
+#left-inline {
+    float: left;
+    display: inline-block;
+}
 
+#right-inline {
+    float: right;
+    width: 50%;
+    display: inline-block;
+
+}
+
+#reason01 {
+    background: url(../images/pexels-anna-shvets-4482936.jpg) no-repeat center center;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+    margin-top: 10px;
+    overflow: hidden;
+    
+}
+
+#why-workout-together {
+    
+    width: 50%;
+    height: 50%;
+
+    font-size: 150%;
+    line-height: 50px;
+
+    margin: 10px 20px;
+}
+
+#reason02 {
+    background: url(../images/pexels-ketut-subiyanto-4720309.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+#why-beatfit {
+    
+    width: 50%;
+    height: 50%;
+
+    font-size: 150%;
+    line-height: 50px;
+
+    margin: 10px 20px;
+}
 
 footer {
     height: 150px;
