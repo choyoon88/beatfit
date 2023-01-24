@@ -206,7 +206,10 @@ footer {
     border: 4px solid white;
     box-sizing: border-box;
 }
-/* Question: How to get rid of the background that is unnecessary? */
+
+#mon {
+    margin-left: 30px;
+}
 
 #timetable div h2, h3 {
     color: #fafafa;
@@ -317,7 +320,8 @@ button:hover {
     #timetable div {
         clear: both;
         width: 100%;
-        height: 220px
+        height: 220px;
+        margin: 0;
     }
    
 }
