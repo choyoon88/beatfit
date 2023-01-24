@@ -13,6 +13,7 @@ header {
     color: #141413ee;
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin-left: 30px;
     
     /* Question: How can I make the header fixed with the styling being stable? When I apply the position:fixed, then the header styling changes */
 }
@@ -325,4 +326,13 @@ button:hover {
     #reason01, #reason02 {
         margin: 0;
     }
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+    }
+    
 }
