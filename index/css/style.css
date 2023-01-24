@@ -307,13 +307,41 @@ button:hover {
         width: 88%;
         height: 72%;
     }
+    #gallery {
+        column-count: 3;
+    }
 }
+    
 
 @media screen and (max-width: 900px) {
     #timetable div {
         clear: both;
         width: 100%;
         height: 220px
+    }
+   
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+    }
+    
+    #bg-change {
+        height: 475px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #bg-image {
+        height: 475px;
+        width: 100%;
+    }
+
+    #form {
+        position: static;
     }
 }
 
@@ -336,22 +364,44 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 800px) {
-    header {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-    }
-    
+@media screen and (max-width: 500px) {
     #bg-change {
-        height: 400px;
+        height: 500px;
         width: 100%;
         overflow: hidden;
     }
 
     #bg-image {
-        height: 400px;
+        height: 500px;
         width: 100%;
+    }
+
+    #gallery {
+        column-count: 2;
+    }
+
+    #form {
+        width: 90%;
+        height: 90%;
+        padding-bottom: 27px;
     }
 }
 
+@media screen and (max-width: 360px) {
+    #bg-change {
+        height: 540px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #bg-image {
+        height: 540px;
+        width: 100%;
+    }
+      
+    #form {
+        width: 90%;
+        height: 90%;
+        padding-bottom: 27px;
+    }
+}
