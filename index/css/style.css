@@ -7,12 +7,13 @@
 }
 
 header {
+    
     font-family: 'Fjalla One', sans-serif;
     font-weight: 300;
     color: #141413ee;
     text-transform: uppercase;
     letter-spacing: 3px;
-    /* position: fixed; */
+    
     /* Question: How can I make the header fixed with the styling being stable? When I apply the position:fixed, then the header styling changes */
 }
 
@@ -156,7 +157,7 @@ hr {
     border-radius: 10px;
 }
 
-
+/* footer */
 
 footer {
     height: 150px;
@@ -178,6 +179,8 @@ footer {
     margin-bottom: 30px;
     color: #141413ee;
 }
+
+
 
 /* timetable.html */
 
@@ -295,6 +298,31 @@ button:hover {
     background-color: #fafafa;
     color: #f16c6b;
 }
+/* media queries */
 
 
+@media screen and (max-width: 1000px) {
+    #why-workout-together, #why-beatfit {
+        width: 88%;
+        height: 72%;
+    }
+}
 
+@media screen and (max-width: 700px) {
+    #left-inline, #right-inline {
+        float: left;
+        width: 100%;
+    }
+
+    #why-workout-together, #why-beatfit {
+        float: left;
+        width: 87%;
+        height: 72%;
+        font-size: 150%;
+        line-height: 40px;
+    }
+    
+    #reason01, #reason02 {
+        margin: 0;
+    }
+}
