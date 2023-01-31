@@ -81,9 +81,18 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. 
+  From line 31, column 5; to line 31, column 28
+    <section id="bg-change">
+    ==> Fixed section to div and solved the issue. ↩     
+
+  - Error: Stray start tag footer.
+  From line 59, column 1; to line 59, column 8
+    ↩↩</body>↩<footer>
+    ==> Placed footer inside the body and fixed the issue. 
+
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official 
 
 ### Unfixed Bugs
 
