@@ -58,7 +58,7 @@ header {
 #bg-image {
     height: 800px;
     width: 100%;
-    background: url('../images/bg-image-weight-lifting.jpg') no-repeat center center;
+    background: url('../images/bg-image_01.jpg') no-repeat center center;
     background-size: cover;
     overflow: hidden;
     animation-name: bg-change;
@@ -69,15 +69,15 @@ header {
 
 @keyframes bg-change {
     10% {
-        background-image: url('../images/bg-image-weight-lifting.jpg');
+        background-image: url('../images/bg-image_01.jpg');
     }
 
     40% {
-        background-image: url('../images/bg-pushup.jpg');
+        background-image: url('../images/bg-image_02.jpg');
     }
 
     80% {
-        background-image: url('../images/bg-boxing.jpg');
+        background-image: url('../images/bg-image_03.jpg');
     }
 }
 
@@ -207,9 +207,9 @@ footer {
     box-sizing: border-box;
 }
 
-#mon {
+/* #mon {
     margin-left: 30px;
-}
+} */
 
 #timetable div h2, h3 {
     color: #fafafa;
