@@ -80,19 +80,24 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Validator Testing 
 
-- HTML
-  Two issues were found during the check over [W3C Validator check](https://validator.w3.org/#validate_by_input)
+#### HTML
+  On all html pages, two issues were found during the check over [W3C Validator check](https://validator.w3.org/#validate_by_input)
+
   - Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. 
   From line 31, column 5; to line 31, column 28
-    <section id="bg-change">
-    ==> Fixed section to div and solved the issue.
+    ==> Changed section to div and solved the issue.
 
   - Error: Stray start tag footer.
   From line 59, column 1; to line 59, column 8
-    ↩↩</body>↩<footer>
     ==> Placed footer inside the body and fixed the issue.
 
-- CSS
+   On gallery.html, one issue was found during the check over [W3C Validator check](https://validator.w3.org/#validate_by_input)
+
+  - Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+    From line 35, column 5; to line 35, column 26
+    ==> Changed section to div and solved the issue.
+
+#### CSS
   - No errors were found when passing through the official 
 
 ### Unfixed Bugs
