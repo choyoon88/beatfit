@@ -478,3 +478,10 @@ button:hover {
         top: 30%;
     }
 }
+
+@media screen and (max-width: 280px) {
+    #thankyou {
+        font-size: 110%;
+        top: 39%;
+    }
+}
