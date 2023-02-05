@@ -1,154 +1,120 @@
 # BeatFit
 
-BeatFit is a site for people who wish to challenge more of their exercise goal by comparing with your peers. BeatFit is beneficial not only to the experienced person but to whom wish to start their own exercise. By comparing your exercise goal with others gives you the motivation to keep doing better than you can and by this will help the workout beginners to make it as a habit. For those seasoned person could set a higher goal for making a better and healthy body.
+BeatFit is a site for people who wish to challenge more of their exercise goal by comparing your results with your peers. BeatFit is beneficial not only to the experienced person in workout but to whom wish to start their own exercise. By comparing your exercise goal with others gives you the motivation to keep on doing better than you can and by this workout beginners will easily make it as a habit. For those workout buffs could set a higher goal for making a better and healthy body.
 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
-
-## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## Features
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all four pages. Navigation bar links to the Home, Timetable, Gallery and Join. Logo on the very left side leads to the home page. 
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+  ![Nav Bar](../beatfit/assets/images/readme-image/navbar.png)
 
-- __The landing page image__
+- __Main Background Image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The main background image consists of three different workout related images and will stand as a default background across all pages. The images will rotate by overlapping the previous ones. 
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+  ![Main Background Image](../beatfit/assets/images/readme-image/homepage.png)
 
-- __Club Ethos Section__
+- __Why Join BeatFit Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - Why Join BeatFit has two sections; brief reasoning for why working out together is good, and why choose BeatFit for that reason. 
+  - Users will seek why it could be benificial to workout together and be interested in joining BeatFit. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  ![Why Join BeatFit](../beatfit/assets/images/readme-image/homepage-about.png)
 
-- __Meetup Times section__
+- __TimeTable__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
-- __The Footer__ 
-
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  - This section will allow the user to see the full weekly based schedules for every day and see which day will meet their workout plan. 
+  
+  ![Timetable](../beatfit/assets/images/readme-image/timetable.png)
 
 - __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - Gallery will provide the users with supporting images to see how the gym and the whole workout scene look like. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+  ![Gallery](../beatfit/assets/images/readme-image/gallery.png)
 
-- __The Sign Up Page__
+- __Join Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to get signed up to BeatFir to start their workout journey by comparing with others. The user will be asked to fill in their first name, last name and email address as a mandatory field. Users could choose which days will fit their schedule during the week.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+  ![Join](../beatfit/assets/images/readme-image/join.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+- __Thanks for Joining page__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - This page will show up once the users sign up for joining BeatFit. 
+  - The user will be notified that they will be an email sent to the email they entered for joining. The function for this will be added later. 
 
-### Features Left to Implement
+  ![Join](../beatfit/assets/images/readme-image/afterjoin.png)
 
-- Another feature idea
+- __The Footer__ 
+
+  - The footer section includes links to the relevant social media sites for BeatFit. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
+
+  ![Footer](../beatfit/assets/images/readme-image/footer.png)
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
 ### Validator Testing 
 
-#### HTML
-  On all html pages, two issues were found during the check over [W3C Validator check](https://validator.w3.org/#validate_by_input)
+#### __HTML__
+  - On all html pages, two issues were found during the check over [W3C Validator check](https://validator.w3.org/#validate_by_input)
 
-  - Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. 
-  From line 31, column 5; to line 31, column 28
-    ==> Changed section to div and solved the issue.
+    - Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. From line 31, column 5; to line 31, column 28
+      > Changed section to div and solved the issue.
 
-  - Error: Stray start tag footer.
-  From line 59, column 1; to line 59, column 8
-    ==> Placed footer inside the body and fixed the issue.
+    - Error: Stray start tag footer. From line 59, column 1; to line 59, column 8
+      > Placed the footer inside the body and fixed the issue.
 
-   On gallery.html, one issue was found during the check over [W3C Validator check](https://validator.w3.org/#validate_by_input)
+  - On gallery.html, one issue was found during the check over [W3C Validator check](https://validator.w3.org/#validate_by_input)
 
-  - Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
-    From line 35, column 5; to line 35, column 26
-    ==> Changed section to div and solved the issue.
+    - Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. From line 35, column 5; to line 35, column 26
+      > Changed section to div and solved the issue.
 
-#### CSS
-  - No errors were found when passing through the official 
+#### __CSS__
+  - No errors or bugs were found when passing through the official [W3C Validator check](https://validator.w3.org/#validate_by_input)
 
 ### Unfixed Bugs
+  - There is no unfixed bugs. 
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+### How It Works on Different Screen Size Device
+  - This website is desiged to adapt on different screen size devices. 
+  - **The background image** adapts to different screen sizes and maintain the same resolution to function as a background without being overlapped or cropped. 
+    ![background](../beatfit/assets/images/readme-image/homepage-smaller.png)
+
+  - **Why Join Beatfit** have a different background color sizing applied so that the paragraph does not overlap the background. Two sections will then show vertically (right-inline will drop down) once the screen width is less than 700px.
+
+    ![whyjoinimage](../beatfit/assets/images/readme-image/whybeatfit.png)
+
+  - **Timetable** also drop down as lining vertically once the screen width is less than 900px.
+    ![timetable](../beatfit/assets/images/readme-image/timtable01.png)
+
+  - **Join Form** will be adjusted to move to the left once the screen width is smaller than 800px. 
+    ![joinform](../beatfit/assets/images/readme-image/joinsmaller.png) 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - In the GitHub repository, navigate to the Settings tab.
+  - From the Code and automation menu, select the Pages.
+  - From the Build and deployment section, selected the branch to have Main and /root, then hit save. 
+  - Once the savedd, the page will be automatically refreshed and on top of the Github Pages section, the deployed page could be found after Your site is live at. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://choyoon88.github.io/beatfit/
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+- The photos used on the home, timetable and gallery were taken from Pexels. (https://www.pexels.com/)
