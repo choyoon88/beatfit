@@ -207,9 +207,9 @@ footer {
     box-sizing: border-box;
 }
 
-/* #mon {
-    margin-left: 30px;
-} */
+#mon {
+    margin-left: 35px;
+}
 
 #timetable div h2, h3 {
     color: #fafafa;
