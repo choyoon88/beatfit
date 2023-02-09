@@ -110,17 +110,17 @@ BeatFit is a site for people who wish to challenge more of their exercise goal b
 ### How It Works on Different Screen Size Device
   - This website is desiged to adapt on different screen size devices. 
   - **The background image** adapts to different screen sizes and maintains the same resolution to function as a background without being overlapped or cropped. 
-    ![background](../beatfit/assets/images/readme-image/homepage-smaller.png)
+    ![background](readme-image/homepage-smaller.png)
 
   - **Why Join Beatfit** have a different background color sizing applied so that the paragraph does not overlap the background. Two sections will then show vertically (right-inline will drop down) placed once the screen width is less than 700px.
 
-    ![whyjoinimage](../beatfit/assets/images/readme-image/whybeatfit.png)
+    ![whyjoinimage](readme-image/whybeatfit.png)
 
   - **Timetable** also drops down as lining vertically once the screen width is less than 900px.
-    ![timetable](../beatfit/assets/images/readme-image/timtable01.png)
+    ![timetable](readme-image/timtable01.png)
 
   - **Join Form** will be adjusted to move to the left once the screen width is smaller than 800px. 
-    ![joinform](../beatfit/assets/images/readme-image/joinsmaller.png) 
+    ![joinform](readme-image/joinsmaller.png) 
 
 ## Deployment
 
