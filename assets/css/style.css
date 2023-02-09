@@ -313,7 +313,7 @@ button:hover {
     position: absolute;
     top: 35%;
     left: 23%;
-    background-color: rgba(18, 18, 195, 0.579);
+    /* background-color: rgba(18, 18, 195, 0.579); */
     text-align: center;
     font-size: 190%;
     padding: 25px;

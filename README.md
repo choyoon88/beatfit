@@ -12,52 +12,52 @@ BeatFit is a site for people who wish to challenge more of their exercise goal b
   - Featured on all four pages. Navigation bar links to the Home, Timetable, Gallery and Join. Logo on the very left side leads to the home page. 
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-  ![Nav Bar](assets/images/readme-image/navbar.png)
+  ![Nav Bar](readme-image/navbar.png)
 
 - __Main Background Image__
 
   - The main background image consists of three different workout related images rotating by slowly overlapping the previous one, and will stand as a default background image across all pages. 
 
-  ![Main Background Image](../beatfit/assets/images/readme-image/homepage.png)
+  ![Main Background Image](readme-image/homepage.png)
 
 - __Why Join BeatFit Section__
 
   - Why Join BeatFit has two sections; brief reasoning for why working out together is good, and why choose BeatFit for that reason. 
   - Users will seek why it could be benificial to workout together and this will make the users get interested in joining BeatFit. 
 
-  ![Why Join BeatFit](../beatfit/assets/images/readme-image/homepage-about.png)
+  ![Why Join BeatFit](readme-image/homepage-about.png)
 
 - __TimeTable__
 
   - This section will allow the user to see the full weekly based schedules for every day and see which day will meet their workout plan. 
   
-  ![Timetable](../beatfit/assets/images/readme-image/timetable.png)
+  ![Timetable](readme-image/timetable.png)
 
 - __Gallery__
 
   - Gallery will provide the users with supporting images to see how the gym and the whole workout scene would look like. 
 
-  ![Gallery](../beatfit/assets/images/readme-image/gallery.png)
+  ![Gallery](readme-image/gallery.png)
 
 - __Join Page__
 
   - This page will allow the user to get signed up to BeatFit to start their workout journey by comparing with others. The user will be asked to fill in their first name, last name and email address as a mandatory field. Users could choose which days will fit their schedule during the week.
 
-  ![Join](../beatfit/assets/images/readme-image/join.png)
+  ![Join](readme-image/join.png)
 
 - __Thanks for Joining page__
 
   - This page will show up once the users sign up for joining BeatFit. 
   - The user will be notified that there will expect an email sent to the email address they entered for joining. The function for this will be added later. 
 
-  ![Join](../beatfit/assets/images/readme-image/afterjoin.png)
+  ![Join](readme-image/afterjoin.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for BeatFit. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-  ![Footer](../beatfit/assets/images/readme-image/footer.png)
+  ![Footer](readme-image/footer.png)
 
 ## Testing 
 
@@ -82,6 +82,30 @@ BeatFit is a site for people who wish to challenge more of their exercise goal b
 
 ### Unfixed Bugs
   - There is no unfixed bugs. 
+
+### Functional Testing
+  - Functional testing performed for every single actions that could be taken within the website. If the actual behavior is the same as the expected behavior, it will be marked with P for pass, or not F for fail. 
+
+| Action | Expected Behavior    | Actual Behavior    |
+| :---:   | :---: | :---: |
+| Enter the browser with the url link: https://choyoon88.github.io/beatfit/ | Enter the home page   | P   |
+| Click BEAT FIT | Direct to home page   | P   |
+| Click HOME | Direct to home page   | P   |
+| Click TIMETABLE | Direct to timetable page with a timetable displayed on the bottom of the page   | P   |
+| Click GALLERY | Direct to gallery with images displayed   | P   |
+| Click JOIN | Direct to joining page with joining form   | P   |
+| From JOIN, click Join the Team without typing anything | Popup message 'Please fill in this field' should show up on First Name text bar  | P   |
+| From JOIN, input only the First Name, and click Join the Team | Popup message 'Please fill in this field' should show up on Last Name text bar   | P   |
+| From JOIN, input only the Last Name, and click Join the Team | Popup message 'Please fill in this field' should show up on First Name text bar   | P   |
+| From JOIN, input only the Email, and click Join the Team | Popup message 'Please fill in this field' should show up on First Name text bar   | P   |
+| From JOIN, input only the First Name and Last Name, and click Join the Team | Popup message 'Please fill in this field' should show up on Email text bar   | P   |
+| From JOIN, input First Name, Last Name and the Email but with an incorrect email address format, and click Join the Team | Popup message "Please include @ in the email address. '*typed content*' is missing an @" should show up on Email Text bar  | P   |
+| From JOIN, input First Name, Last Name and the Email with correct email address format | Direct to a 'thanks for joining' page   | P   |
+| From JOIN, select any day/s from 'Which day do you prefer' and do not enter anything, and click Join the Team | Popup message 'Please fill in this field' should show up on First Name text bar   | P   |
+| From the Footer, click Instagram icon | Instagram website opens on a new tab   | P   |
+| From the Footer, click Twitter icon | Twitter website opens on a new tab   | P   |
+| From the Footer, click Youtube icon | Youtube website opens on a new tab   | P   |
+
 
 ### How It Works on Different Screen Size Device
   - This website is desiged to adapt on different screen size devices. 
