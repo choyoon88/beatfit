@@ -110,6 +110,7 @@ BeatFit is a site for people who wish to challenge more of their exercise goal b
 ### How It Works on Different Screen Size Device
   - This website is desiged to adapt on different screen size devices. 
   - **The background image** adapts to different screen sizes and maintains the same resolution to function as a background without being overlapped or cropped. 
+    
     ![background](readme-image/homepage-smaller.png)
 
   - **Why Join Beatfit** have a different background color sizing applied so that the paragraph does not overlap the background. Two sections will then show vertically (right-inline will drop down) placed once the screen width is less than 700px.
@@ -117,9 +118,11 @@ BeatFit is a site for people who wish to challenge more of their exercise goal b
     ![whyjoinimage](readme-image/whybeatfit.png)
 
   - **Timetable** also drops down as lining vertically once the screen width is less than 900px.
+
     ![timetable](readme-image/timtable01.png)
 
   - **Join Form** will be adjusted to move to the left once the screen width is smaller than 800px. 
+
     ![joinform](readme-image/joinsmaller.png) 
 
 ## Deployment
@@ -131,6 +134,16 @@ BeatFit is a site for people who wish to challenge more of their exercise goal b
   - Once the saved, the page will be automatically be refreshed and on top of the Github Pages section, the deployed page could be found after 'Your site is live at.'
 
 The live link can be found here - https://choyoon88.github.io/beatfit/
+
+## Local Deployment
+
+- Local deployment could be done following the steps. 
+  1. From my Gitpod BeatFit repository, click '<>Code' right next to green 'Gitpod' icon. 
+  2. Select 'local' and HTTPS.
+  3. Copy the HTTPS address: https://github.com/choyoon88/beatfit.git
+  4. Open terminal on the Mac computer.
+  5. Type **_git clone_** and paste the HTTPS address. 
+  6. Install the git developer tools and download the command line in your computer. 
 
 
 ## Credits 
