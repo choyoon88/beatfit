@@ -252,6 +252,10 @@ footer {
     font-size: 110%;
 }
 
+#h4dark {
+    color: #141413ee;
+}
+
 #form h2 {
     font-size: 165%;
 }
@@ -317,7 +321,7 @@ button:hover {
     letter-spacing: 1px;
 }
 
-#thankyou h2, h4 {
+#thankyou > h2, h4 {
     color: #fafafa;
 }
 
