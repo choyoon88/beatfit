@@ -50,7 +50,7 @@ BeatFit is a site for people who wish to challenge more of their exercise goal b
   - This page will show up once the users sign up for joining BeatFit. 
   - The user will be notified that there will expect an email sent to the email address they entered for joining. The function for this will be added later. 
 
-  ![Join](readme-image/afterjoin.png)
+  ![Join](readme-image/afterjoina.png)
 
 - __The Footer__ 
 
